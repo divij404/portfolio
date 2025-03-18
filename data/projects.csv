@@ -1,4 +1,4 @@
 id,title,description,tags,link,githubLink,imageUrl
 1,Personal Portfolio Website,"Crafted a sleek, responsive portfolio website to showcase my projects and skills, leveraging Next.js for server-side rendering and Tailwind CSS for modern, utility-first styling.","Next.js,React,Tailwind CSS",https://example.com/portfolio,https://github.com/yourusername/portfolio,/placeholder.svg?height=400&width=600
 2,Donation Management System,"Developed a streamlined system to efficiently track and manage donations, built as a project using Python, SQLite for data storage, and Flask for the web framework.","Python,SQLite,Flask",https://example.com/course-manager,https://github.com/thebinarybard/donorhub,/placeholder.svg?height=400&width=600
-3,Mood-Based Playlist Finder,,"Flask, React",https://moodplaylist.vercel.app,https://github.com/thebinarybard/MoodPlaylist,./img/MoodPlaylist.png
+3,Mood-Based Playlist Finder,,"Flask, React",https://moodplaylist.vercel.app,https://github.com/thebinarybard/MoodPlaylist,/img/MoodPlaylist.png
