@@ -12,7 +12,7 @@ export function getProjects() {
     return parse(fileContent, { columns: true, skip_empty_lines: true });
   } catch (error) {
     console.error('Error parsing projects.csv:', error.message);
-    return []; // Fallback to empty array
+    return [];
   }
 }
 
@@ -23,6 +23,6 @@ export function getCourses() {
     return parse(fileContent, { columns: true, skip_empty_lines: true });
   } catch (error) {
     console.error('Error parsing courses.csv:', error.message);
-    return []; // Fallback to empty array
+    return [];
   }
 }
