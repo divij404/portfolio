@@ -1,4 +1,5 @@
-// app/page.tsx
+"use client";
+
 import { useRef } from "react";
 import { ArrowRight, ChevronDown, ExternalLink } from "lucide-react";
 import Link from "next/link";
