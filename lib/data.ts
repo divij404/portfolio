@@ -36,7 +36,7 @@ export function getProjects(): Project[] {
       console.error("getProjects: Parsed result is not an array:", records);
       return [];
     }
-
+ 
     return records.map((record: any) => ({
       id: Number.parseInt(record.id),
       title: record.title || "",
@@ -47,7 +47,7 @@ export function getProjects(): Project[] {
       imageUrl: record.imageUrl || "",
     }));
   } catch (error) {
-    console.error("Error in getProjects:", error.message);
+    console.error("Error in getProjects:", error instanceof Error ? error.message : String(error));
     return [];
   }
 }
@@ -77,7 +77,7 @@ export function getCourses(): Course[] {
       credits: record.credits ? Number.parseInt(record.credits) : undefined,
     }));
   } catch (error) {
-    console.error("Error in getCourses:", error.message);
+    console.error("Error in getCourses:", error instanceof Error ? error.message : String(error));
     return [];
   }
 }
